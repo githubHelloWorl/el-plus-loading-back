@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @TableName(value = "user")
 public class User {
-    private int id;
+    private Integer id;
     private String name;
     private String password;
     private int age;

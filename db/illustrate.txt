@@ -48,11 +48,18 @@ mysql.sql的内容
 
 
 
-3) 对Student类的介绍(实体层)
+3) 对 Cascader 类的介绍(实体层)
+使用 Cascader 获取表中的数据
 
-5) springboot绑定到mybatis-plus (数据层)
+
+4) springboot绑定到mybatis-plus (数据层)
 对mapper下的介绍
 到这里就可以使用mybatis-plus内置最原始的增删改查，但是不够灵活，只能做最简单的增删改查
+
+
+5) 测试
+测试是否可以正常运行
+
 
 6) 把数据层加工处理成逻辑业务 (service服务层)
 
@@ -65,11 +72,23 @@ mysql.sql的内容
 因为被MP封装到了 这个IService接口里面了
 
 
-
 在service包下建立这个 ServiceImpl类
 
 
 7) controller
+包括查询各级别的数据
 
+
+8) vo
+向前端发送显露的数据
+
+9) utils
+各种工具
+
+10) config
+使用分页设置,现阶段用不到
+
+11) pojo
+封装的返回结果
 
 

@@ -29,9 +29,6 @@ public class UserController {
         userService.page(page,null);
         model.addAttribute("page",page);
 
-        //users=userService.list();
-        //model.addAttribute("li",users);
-
         return "index";
     }
 
